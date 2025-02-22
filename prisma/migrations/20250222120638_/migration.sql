@@ -1,0 +1,5 @@
+-- AlterTable
+ALTER TABLE "Property" ADD COLUMN     "instantBook" BOOLEAN NOT NULL DEFAULT true,
+ADD COLUMN     "propertyType" TEXT NOT NULL DEFAULT 'house',
+ADD COLUMN     "rating" DOUBLE PRECISION,
+ADD COLUMN     "reviews" INTEGER NOT NULL DEFAULT 0;
